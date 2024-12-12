@@ -45,7 +45,7 @@ UMD
 
 ```html
 <!-- after phaser.js -->
-<script src="https://cdn.jsdelivr.net/npm/phaser-plugin-sound-watcher@1.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/phaser-plugin-sound-watcher@1.0.1"></script>
 ```
 
 ```js
@@ -70,7 +70,7 @@ Quick load
 ----------
 
 ```js
-this.load.plugin('SoundWatcherPlugin', 'https://cdn.jsdelivr.net/npm/phaser-plugin-sound-watcher@1.0.0')
+this.load.plugin('SoundWatcherPlugin', 'https://cdn.jsdelivr.net/npm/phaser-plugin-sound-watcher@1.0.1')
 ```
 
 - [Quick load example](https://phaser.io/sandbox/PgZyGawy)
@@ -81,5 +81,5 @@ Load from console
 Given a global `game` variable:
 
 ```js
-game.scene.systemScene.load.plugin('SoundWatcherPlugin', 'https://cdn.jsdelivr.net/npm/phaser-plugin-sound-watcher@1.0.0').start()
+game.scene.systemScene.load.plugin('SoundWatcherPlugin', 'https://cdn.jsdelivr.net/npm/phaser-plugin-sound-watcher@1.0.1').start()
 ```

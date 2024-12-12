@@ -15,6 +15,7 @@
     "contents": "npm pack --dry-run",
     "dev": "vite",
     "fix": "biome check --write *.js src",
+    "prepublishOnly": "vitest run package.test.js",
     "preversion": "./preversion.sh",
     "test": "vitest"
   },

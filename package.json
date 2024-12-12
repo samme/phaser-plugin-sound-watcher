@@ -10,11 +10,12 @@
   ],
   "scripts": {
     "build": "vite build",
+    "postbuild": "rm -rv dist/*.{mp3,png}",
     "check": "biome check src",
     "contents": "npm pack --dry-run",
     "dev": "vite",
     "fix": "biome check --write *.js src",
-    "postbuild": "rm -rv dist/*.png dist/tech",
+    "preversion": "./preversion.sh",
     "test": "vitest"
   },
   "devDependencies": {
